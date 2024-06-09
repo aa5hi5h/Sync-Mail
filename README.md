@@ -9,7 +9,7 @@ This is an open source web application build to classify Emails based on subject
 
   ![homepage](https://github.com/aa5hi5h/Sync-Mail/assets/156516764/aa5aafaa-3cee-4868-a6e5-421acaa75484)
 
-2) By clicking in the input box user will have the choice of selecting how many email they want to retrieve
+2) By clicking in the input box user will have the choice of selecting how many email they want to retrieve, let's sat that user select '15' most recent emails to fetch from
 
   ![input](https://github.com/aa5hi5h/Sync-Mail/assets/156516764/5748d87b-c6e3-4510-8d41-cf1e4b41fe1e)
 
@@ -19,7 +19,8 @@ This is an open source web application build to classify Emails based on subject
 
 ```
 
-3) After which Email will be shown to the users which come directly from the gmail account which user have used to logged in 
+3) After which Email will be shown to the users which come directly from the gmail account which user have used to logged in
+   emaple of the few of such pages have shown below- 
    
   ![getMails](https://github.com/aa5hi5h/Sync-Mail/assets/156516764/117b9cb9-b3d3-4460-b890-d4de55731e84)
 
@@ -33,7 +34,7 @@ This is an open source web application build to classify Emails based on subject
 
 ```
 
-4) now these Emails can be classified using OpenAi/Gemini LLM models into different categories like Important,Marketing,Spam,Promotional.., which will be shown as labeled below
+4) now these Emails can be classified using OpenAi/Gemini LLM models into different categories like Important,Marketing,Spam,Promotional.., depending upon the subject and body of these emial, these classifications will be shown as labeled below-
    
   ![classifiedexample](https://github.com/aa5hi5h/Sync-Mail/assets/156516764/28eb0894-abdd-4e52-9104-3c58fb3b82e0)
   
@@ -47,7 +48,8 @@ This is an open source web application build to classify Emails based on subject
 
 ```
 
-5) Clicking on the email also give you a preview of the email that will contain a other parts such as subject , body
+5) Clicking on the email also give you a preview of the email that will contain  other parts of the email such as subject , body
+   Emaples- 
    
   ![sheet2](https://github.com/aa5hi5h/Sync-Mail/assets/156516764/5afee405-fab0-4108-9b68-38e5d6a43afe)
 
