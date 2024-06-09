@@ -8,7 +8,7 @@ import { Loader2 } from "lucide-react"
 import { useRouter } from "next/navigation"
 
 
-const page = () => {
+const Page = () => {
 
     const [isLoading,setIsLoading] = useState<boolean>(false)
 
@@ -43,4 +43,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

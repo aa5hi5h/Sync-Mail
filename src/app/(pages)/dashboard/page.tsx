@@ -7,7 +7,7 @@ import { useSession } from "next-auth/react"
 import { notFound } from "next/navigation"
 
 
-const page = async() => {
+const Page = async() => {
 
     const session = await getServerSession(authOptions)
 
@@ -30,4 +30,4 @@ const page = async() => {
     )
 }
 
-export default page
+export default Page

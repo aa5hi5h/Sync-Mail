@@ -5,7 +5,7 @@ import { useToast } from "@/components/ui/use-toast"
 import { useState } from "react"
 
 
-const page = () => {
+const Page = () => {
     const [ inputKey,setInputKey] = useState<string | "" >("")
 
     const {toast} = useToast()
@@ -38,4 +38,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
