@@ -1,7 +1,7 @@
 import { prisma } from "@/lib/db";
 import { getServerSession } from "next-auth";
 import { getToken } from "next-auth/jwt";
-import { authOptions } from "../auth/[...nextauth]/route";
+import { authOptions } from "@/app/utils/auth";
 import {google} from "googleapis"
 import { threadId } from "worker_threads";
 
@@ -135,7 +135,7 @@ export async function GET(req:any){
     console.log("emails list",emails)
     const messageIds = emails.map((msg:any) => msg.id)
     const message = await Promise.all(messageIds.map((id:string) => getMessageDetails(gmail,id)))
-    
+
     return new Response(JSON.stringify(message.filter((msg:any) => msg !== null )),{status:200})
 
 }catch(error){
