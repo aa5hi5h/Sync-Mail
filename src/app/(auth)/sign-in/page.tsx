@@ -17,7 +17,7 @@ const Page = () => {
     const handleLogin = async() => {
         try{
             setIsLoading(true)
-            await signIn("google",{callbackUrl:"http://localhost:3000/dashboard"})
+            await signIn("google",{callbackUrl:`${window.location.origin}/dashboard`})
 
         }catch(error){
             setIsLoading(false)
