@@ -7,7 +7,6 @@ import Provider from "@/components/Provider";
 import { Toaster } from "@/components/ui/toaster";
 import QueryProvider from "@/components/QuerryProvider";
 import { getServerSession } from "next-auth";
-import { authOptions } from "./api/auth/[...nextauth]/route";
 
 const inter = Inter({ subsets: ["latin"] });
 
