@@ -1,4 +1,4 @@
-import { authOptions } from "@/app/api/auth/[...nextauth]/route"
+import { authOptions } from "@/app/utils/auth"
 import Avatar from "@/components/Avatar"
 import MainSection from "@/components/MainSection"
 import { Button } from "@/components/ui/button"
