@@ -1,7 +1,7 @@
 import { prisma } from "@/lib/db";
 import { getServerSession } from "next-auth";
 import { getToken } from "next-auth/jwt";
-import { authOptions } from "@/app/utils/auth";
+import { authOptions } from "../../utils/auth";
 import {google} from "googleapis"
 import { threadId } from "worker_threads";
 
